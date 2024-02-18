@@ -1,0 +1,9 @@
+{
+  "workshops": [
+    { "name": "frontend", "notWith": ["backend", "ui/ux"] },
+    { "name": "backend", "notWith": ["mobile", "frontend"] },
+    { "name": "ui/ux", "notWith": ["mobile", "frontend"] },
+    { "name": "mobile", "notWith": ["backend", "ui/ux"] }
+  ],
+  "niveau": ["débutant", "intermédiaire", "avancé"]
+}

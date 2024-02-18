@@ -14,8 +14,10 @@ export default {
     extend: {
       colors: {
         primary: "#0F081E",
+        buttonPrimary: "rgba(86, 39, 255, 1)",
+        buttonSecondery: "rgba(59, 36, 143, 0.67)",
       },
     },
+    plugins: [],
   },
-  plugins: [],
 };
