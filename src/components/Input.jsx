@@ -3,7 +3,7 @@ function Input({ name, extand, value, onChange, type }) {
   return (
     <div
       className={` rounded-full border border-white/30 focus-within:border-white transition-colors duration-200 last:mb-0 ${
-        extand ? "w-full" : "w-[49%]"
+        extand ? "w-full" : "md:w-[49%] w-full"
       } mb-[6%]`}
     >
       <input

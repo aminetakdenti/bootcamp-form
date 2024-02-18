@@ -21,7 +21,9 @@ function DropDown({
   }, []);
 
   return (
-    <div className={` relative ${extend ? "w-full" : "w-[49%]"} mb-[2%]`}>
+    <div
+      className={` relative ${extend ? "w-full" : "md:w-[49%]"} w-full mb-[2%]`}
+    >
       <div
         className={`flex 
 		justify-between items-center  cursor-pointer select-none p-4 
